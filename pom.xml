@@ -4,9 +4,10 @@
 
     <groupId>net.slipcor</groupId>
     <artifactId>pvparena</artifactId>
-    <version>1.15.3-SNAPSHOT</version>
+    <version>1.15.4-SNAPSHOT</version>
     <name>PVP Arena</name>
     <url>https://github.com/Eredrim/pvparena</url>
+
 
     <properties>
         <buildVersion></buildVersion>
@@ -28,7 +29,7 @@
         <dependency>
             <groupId>org.spigotmc</groupId>
             <artifactId>spigot-api</artifactId>
-            <version>1.13.2-R0.1-SNAPSHOT</version>
+            <version>1.19-R0.1-SNAPSHOT</version>
             <type>jar</type>
             <scope>provided</scope>
         </dependency>
@@ -37,6 +38,11 @@
             <artifactId>bstats-bukkit</artifactId>
             <version>1.7</version>
             <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.1</version>
         </dependency>
     </dependencies>
 
